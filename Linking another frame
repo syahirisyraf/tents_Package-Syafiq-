@@ -1,0 +1,9 @@
+public void actionPerformed(ActionEvent event)
+	{
+		if(event.getSource() == btnRegister) {
+			Login Login = new Login();
+			Login.setVisible(true);
+			dispose();
+		}
+		
+	}
